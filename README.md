@@ -6,17 +6,13 @@ macOS targets.
 
 ## Install
 
-The package is published to GitHub Packages with the fixed snapshot version
-`1.0.0-SNAPSHOT`.
+This fork serves Android artifacts anonymously with the fixed snapshot version
+`1.0.0-SNAPSHOT`. Source provenance and rebuild steps are in [PUBLIC_MAVEN.md](PUBLIC_MAVEN.md).
 
 ```kotlin
 repositories {
     maven {
-        url = uri("https://maven.pkg.github.com/YumeYucca/lucide-compose")
-        credentials {
-            username = providers.gradleProperty("gpr.user").orNull ?: System.getenv("GITHUB_ACTOR")
-            password = providers.gradleProperty("gpr.key").orNull ?: System.getenv("GITHUB_TOKEN")
-        }
+        url = uri("https://raw.githubusercontent.com/LIghtJUNction/lucide-compose/Moe/maven")
     }
 }
 
@@ -25,9 +21,8 @@ dependencies {
 }
 ```
 
-For a public package, GitHub Packages still requires authentication when
-resolving Maven artifacts. Use a GitHub personal access token with
-`read:packages`, supplied as `gpr.key` or `GITHUB_TOKEN`.
+Replace `Moe` in the repository URL with the publication commit for a pinned build.
+Other platform artifacts can be built from source using the upstream targets.
 
 ## Use icons
 
