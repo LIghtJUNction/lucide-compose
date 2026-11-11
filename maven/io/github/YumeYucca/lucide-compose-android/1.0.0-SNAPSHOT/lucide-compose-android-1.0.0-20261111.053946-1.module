@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../lucide-compose/1.0.0-SNAPSHOT/lucide-compose-1.0.0-SNAPSHOT.module",
+    "group": "io.github.YumeYucca",
+    "module": "lucide-compose",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lucide-compose.aar",
+          "url": "lucide-compose-android-1.0.0-SNAPSHOT.aar",
+          "size": 6120975,
+          "sha512": "55b354bbc81b6dc263e7aecd07beeab9eb33aae9b00c86742109bed19ce2c0ebe7b5f88d9c7a6f265ad31f9e822841d4a996af5bae304ada7c824e9d224a62b7",
+          "sha256": "4f25d53d4a2ce15c2f0f4230debb60130d18a2e0f6f647a24d9d1ff4fbdd59f8",
+          "sha1": "632db81f97dc520d4850bbdfeabc6e7074e51e1c",
+          "md5": "94627c8504d7bd90b303a1b795d636e4"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lucide-compose.aar",
+          "url": "lucide-compose-android-1.0.0-SNAPSHOT.aar",
+          "size": 6120975,
+          "sha512": "55b354bbc81b6dc263e7aecd07beeab9eb33aae9b00c86742109bed19ce2c0ebe7b5f88d9c7a6f265ad31f9e822841d4a996af5bae304ada7c824e9d224a62b7",
+          "sha256": "4f25d53d4a2ce15c2f0f4230debb60130d18a2e0f6f647a24d9d1ff4fbdd59f8",
+          "sha1": "632db81f97dc520d4850bbdfeabc6e7074e51e1c",
+          "md5": "94627c8504d7bd90b303a1b795d636e4"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "lucide-compose-android-1.0.0-SNAPSHOT-sources.jar",
+          "url": "lucide-compose-android-1.0.0-SNAPSHOT-sources.jar",
+          "size": 1381283,
+          "sha512": "cfef75dea758fdb7e8d372dc5059f562770546fa6a9915156e8754dffcd85fd478d17cd52fcfac20e8b0cca07c74819ffdca13ff8ed222f8631cdf013ad5545c",
+          "sha256": "63f32937d9635164a912d64d5c55d12f2e66ee51222d5c8468a4c4e28d1f65c3",
+          "sha1": "bfb903a8ec282ab2e46582824182e1658e98e1fb",
+          "md5": "9ed0e56bae62d3e53cb972e63e24a0bf"
+        }
+      ]
+    }
+  ]
+}

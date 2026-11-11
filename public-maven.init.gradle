@@ -1,0 +1,18 @@
+import org.gradle.api.publish.PublishingExtension
+
+def repositoryDir = System.getenv("PUBLIC_MAVEN_DIR")
+if (!repositoryDir) {
+    throw new GradleException("Set PUBLIC_MAVEN_DIR to the public Maven output directory")
+}
+
+allprojects { project ->
+    project.afterEvaluate {
+        def publishing = project.extensions.findByType(PublishingExtension)
+        if (publishing != null) {
+            publishing.repositories.maven {
+                name = "publicMaven"
+                url = uri(repositoryDir)
+            }
+        }
+    }
+}

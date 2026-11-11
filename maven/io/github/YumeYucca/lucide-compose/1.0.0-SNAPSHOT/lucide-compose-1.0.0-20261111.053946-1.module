@@ -1,0 +1,530 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.YumeYucca",
+    "module": "lucide-compose",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui",
+          "version": {
+            "requires": "1.11.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lucide-compose-metadata-1.0.0-SNAPSHOT.jar",
+          "url": "lucide-compose-1.0.0-SNAPSHOT.jar",
+          "size": 812006,
+          "sha512": "f2940c66f97bb832a2fe3da96f52fbc5e5dc9916554d301a9dd21a16634a7523d048f5c66957aeb8163acd0e51623c017e10a7bfec0deb03807859a5af781340",
+          "sha256": "2f64da4094a7a3d666d304fcf054093f7082d328055f211dd04f2efd609a8a18",
+          "sha1": "2cb20f3dbb1e9c6301798b03b182c34adaabc92c",
+          "md5": "5766be5aa8c5bf899c936c4837984b58"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "lucide-compose-kotlin-1.0.0-SNAPSHOT-sources.jar",
+          "url": "lucide-compose-1.0.0-SNAPSHOT-sources.jar",
+          "size": 1381283,
+          "sha512": "cfef75dea758fdb7e8d372dc5059f562770546fa6a9915156e8754dffcd85fd478d17cd52fcfac20e8b0cca07c74819ffdca13ff8ed222f8631cdf013ad5545c",
+          "sha256": "63f32937d9635164a912d64d5c55d12f2e66ee51222d5c8468a4c4e28d1f65c3",
+          "sha1": "bfb903a8ec282ab2e46582824182e1658e98e1fb",
+          "md5": "9ed0e56bae62d3e53cb972e63e24a0bf"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-android/1.0.0-SNAPSHOT/lucide-compose-android-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-android",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-android/1.0.0-SNAPSHOT/lucide-compose-android-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-android",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-android/1.0.0-SNAPSHOT/lucide-compose-android-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-android",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-desktop/1.0.0-SNAPSHOT/lucide-compose-desktop-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-desktop",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-desktop/1.0.0-SNAPSHOT/lucide-compose-desktop-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-desktop",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-desktop/1.0.0-SNAPSHOT/lucide-compose-desktop-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-desktop",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-iosarm64/1.0.0-SNAPSHOT/lucide-compose-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-iosarm64/1.0.0-SNAPSHOT/lucide-compose-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-iosarm64/1.0.0-SNAPSHOT/lucide-compose-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-iosarm64/1.0.0-SNAPSHOT/lucide-compose-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-iossimulatorarm64/1.0.0-SNAPSHOT/lucide-compose-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-iossimulatorarm64/1.0.0-SNAPSHOT/lucide-compose-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-iossimulatorarm64/1.0.0-SNAPSHOT/lucide-compose-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-iossimulatorarm64/1.0.0-SNAPSHOT/lucide-compose-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-js/1.0.0-SNAPSHOT/lucide-compose-js-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-js/1.0.0-SNAPSHOT/lucide-compose-js-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-js/1.0.0-SNAPSHOT/lucide-compose-js-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-js/1.0.0-SNAPSHOT/lucide-compose-js-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-macosarm64/1.0.0-SNAPSHOT/lucide-compose-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-macosarm64/1.0.0-SNAPSHOT/lucide-compose-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-macosarm64/1.0.0-SNAPSHOT/lucide-compose-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-macosarm64/1.0.0-SNAPSHOT/lucide-compose-macosarm64-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-macosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-wasm-js/1.0.0-SNAPSHOT/lucide-compose-wasm-js-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-wasm-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-wasm-js/1.0.0-SNAPSHOT/lucide-compose-wasm-js-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-wasm-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-wasm-js/1.0.0-SNAPSHOT/lucide-compose-wasm-js-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-wasm-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../lucide-compose-wasm-js/1.0.0-SNAPSHOT/lucide-compose-wasm-js-1.0.0-SNAPSHOT.module",
+        "group": "io.github.YumeYucca",
+        "module": "lucide-compose-wasm-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    }
+  ]
+}
